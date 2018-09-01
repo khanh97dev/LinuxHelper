@@ -13,6 +13,7 @@ sudo apt-get install mysql-server.
 ## TaskBar 
 ```sh
 sudo apt install plank
+plank --preferences 
 ```
 ---
 
