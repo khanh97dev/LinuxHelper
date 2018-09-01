@@ -10,7 +10,10 @@ sudo apt-get remove dbconfig-mysql.
 sudo apt-get dist-upgrade.
 sudo apt-get install mysql-server.
 ```
-
+## TaskBar 
+```sh
+sudo apt install plank
+```
 ---
 
 ### 1.Run Photoshop.exe
