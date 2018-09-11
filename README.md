@@ -28,5 +28,9 @@ wine 'runFile.exe'
 sudo apt install mysql-server
 sudo mysql_secure_installation
 sudo mysql -u root
-mysql -u root
+
+mysql> USE mysql;
+mysql> UPDATE user SET plugin='mysql_native_password' WHERE User='root';
+mysql> FLUSH PRIVILEGES;
+mysql> exit;
 ```
